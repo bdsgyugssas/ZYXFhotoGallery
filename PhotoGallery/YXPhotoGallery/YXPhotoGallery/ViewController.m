@@ -41,7 +41,7 @@ static NSString * const ID=@"Photo";
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    
+    self.collectionView.backgroundColor=[UIColor grayColor];
     self.collectionView.delegate=self;
     self.collectionView.dataSource=self;
     self.collectionView.collectionViewLayout=[[YXLineLayout alloc]init];
